@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS school_growth;
+
+USE school_growth;
+
+CREATE TABLE IF NOT EXISTS school_data (
+    year INT,
+    number_of_schools INT
+);
